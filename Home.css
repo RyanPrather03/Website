@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background-size: fill;
+  height: auto;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  display: inline-block;
+  overflow: hidden;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: "Optima", sans-serif;
+  background-size: 98%;
+  max-width: 98%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: inline-block;
+  color: black;
+  font-family: "Helvetica", sans-serif;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  font-size: 1.6vw;
+  color: black;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #84a59d;
+  color:black;
+}
+
+.img {
+	border-radius: 8px;
+	display: block-inline;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	max-width: 100%;
+	opacity: .8;
+}
+
+
+/* Left column */
+.leftcolumn {   
+  color: #84a59d;
+  width: 100%;
+  object-fit: fill;
+  display: inline;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+/* Right column */
+.rightcolumn {
+  color: white;
+  width: 50%;
+  padding-left: 20px;
+  text-align: center;
+  object-fit: fill;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  line-height: 1.0;
+}
+
+/* Add a card effect for articles */
+.card2 {
+  padding: 10px;
+  line-height: 2.0;
+  color: #84a59d;
+  background-color: dimgray;
+}
+
+.card3 {
+  line-height: 1.0;
+  color: black;
+}
+
+
+.midtext {
+  margin-left: 10%;
+  width: 70%;
+  color: black;
+  text-align: left;
+  display: inline-block;
+  font-family: "Optima", sans-serif;
+}
+.midtext2 {
+  width: 100%;
+  color: black;
+  display: inline-block;
+}
+
+.bgdimg {
+	background-image: url("photos/ryan3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 98%;
+  font-size: .40vw;
+  padding-bottom: 14%;
+  padding-top: 14%;
+}
+
+.bgdimg2 {
+	background-image: url("photos/drycreekbed2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+}
+.bgdimg3 {
+	background-image: url("photos/wintercleanup.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 98%;
+  text-shadow: none;
+  color: black;
+  font-size: .45vw;
+  padding-bottom: 14%;
+  padding-top: 14%;
+}
+
+.opacity {
+  font-size: 600%;
+  color: #ffffff;
+  text-align: top;
+  padding: 0% 10%;
+  font-family: "Optima", sans-serif;
+  opacity: 1;
+}
+.opacity2 {
+  font-size: 600%;
+  color: #ffffff;
+  text-align: top;
+  padding: 0% 23%;
+  font-family: "Optima", sans-serif;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 5px 15px;
+  text-align: center;
+  width: 100%;
+  color: black;
+  line-height: 1.5;
+  background-color: #9E968E;
+}
+
+/* Responsive layout - when the screen is less than 800px wide,
+ make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide,
+ make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+	  line-height: 3.0;
+  }
+}
+
+/* PROJECTS PAGE */
+.projects {
+    padding: 20px;
+    color:black;
+}
+
+.lcol {
+    float: left;
+    width: 45%;
+    display: inline;
+    color: black;
+    padding-left: 7%;
+}
+
+.mcol {
+  float: none;
+  width: 45%;
+  display: inline;
+  color: black;
+  padding: 25%;
+}
+.rcol {
+    float:  right;
+    width: 45%;
+    display: inline;
+    padding-right: 7%;
+}
+
+.sepcol {
+    background-color: #84a59d;
+    color: black;
+}
+
+.colimg {
+    border: 10px solid rgb(12, 12, 12);
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .lcol, .rcol {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  /* SERVICES PAGE */
+.services {
+  text-align: center;
+  width: 80%;
+  padding: 0px 10%;
+  display: inline;
+  background-color: floralwhite;
+}
+
+.sh1 {
+  width: 75%;
+  font-size: 75%;
+}
+
+.container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.image {
+  flex-basis: 50%;
+  padding-left: 11%;
+}
+.stext {
+padding-right: 0%;
+padding-left: 0%;
+}
